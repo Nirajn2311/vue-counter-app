@@ -12,7 +12,7 @@
   "dependencies": {
     "vue": "^2.5.17",
     "express": "^4.16.2",
-    "serve-static: "^1.13.2"
+    "serve-static: "1.13.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",
