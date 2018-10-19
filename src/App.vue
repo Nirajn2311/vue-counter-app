@@ -2,9 +2,9 @@
   <div id="app">
 	<div id="count">Current Count: {{ count }}</div>
 	<div id="button">
-		<button v-on:click="inc" id="inc">INCREMENT</button>
-		<button v-on:click="dec" id="dec">DECREMENT</button>
-		<button v-on:click="reset" id="reset">RESET</button>
+		<v-btn outline v-on:click="inc" id="inc">INCREMENT</v-btn>
+		<v-btn outline v-on:click="dec" id="dec">DECREMENT</v-btn>
+		<v-btn dark v-on:click="reset" id="reset">RESET</v-btn>
 	</div>
   </div>
 </template>
@@ -47,6 +47,7 @@ export default {
 #button {
 	display: grid;
 	grid-template-columns: repeat(3, 12%);
-	justify-content: space-between;
+	grid-column-gap: 10px;
+	justify-content: center;
 }
 </style>
