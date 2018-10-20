@@ -38,15 +38,17 @@ export default {
 
 <style>
 #app {
-	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	font-family: Fira Code;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;
 	color: #2c3e50;
 	display: grid;
-	grid-template-rows: 1fr 1fr;
-	grid-column-gap: 10px;
+	margin-top: 60px;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-row-gap: 10px;
 	align-items: center;
+	font-size: 30px;
 }
 
 #button {
