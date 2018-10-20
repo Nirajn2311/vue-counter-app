@@ -2,9 +2,9 @@
   <div id="app">
 	<div id="count">Current Count: {{ count }}</div>
 	<div id="button">
-		<v-btn @click="inc" id="inc">INCREMENT</v-btn>
-		<v-btn @click="dec" id="dec">DECREMENT</v-btn>
-		<v-btn dark @click="reset" id="reset">RESET</v-btn>
+		<inc-button @inc="inc" />
+		<dec-button @dec="dec" />
+		<reset-button @reset="reset" />
 	</div>
 	<div id="github">
 		<v-btn icon large href="https://github.com/Nirajn2311/vue-counter-app">
@@ -15,8 +15,17 @@
 </template>
 
 <script>
+import IncButton from './components/IncButton.vue'
+import DecButton from './components/DecButton.vue'
+import ResetButton from './components/ResetButton.vue'
+
 export default {
 	name: 'app',
+	components: {
+		IncButton,
+		DecButton,
+		ResetButton
+	},
 	data: function() {
 		return {
 			count: 0
