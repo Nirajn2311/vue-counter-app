@@ -2,9 +2,14 @@
   <div id="app">
 	<div id="count">Current Count: {{ count }}</div>
 	<div id="button">
-		<v-btn outline v-on:click="inc" id="inc">INCREMENT</v-btn>
-		<v-btn outline v-on:click="dec" id="dec">DECREMENT</v-btn>
-		<v-btn dark v-on:click="reset" id="reset">RESET</v-btn>
+		<v-btn @click="inc" id="inc">INCREMENT</v-btn>
+		<v-btn @click="dec" id="dec">DECREMENT</v-btn>
+		<v-btn dark @click="reset" id="reset">RESET</v-btn>
+	</div>
+	<div id="github">
+		<v-btn icon large href="https://github.com/Nirajn2311/vue-counter-app">
+			<font-awesome-icon size="2x" :icon="['fab','github']" />
+		</v-btn>
 	</div>
   </div>
 </template>
