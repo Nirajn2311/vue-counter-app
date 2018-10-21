@@ -3,5 +3,4 @@ node_js:
   - "node"
   - "lts/*"
 script:
-  - npm run serve
   - npm run lint
