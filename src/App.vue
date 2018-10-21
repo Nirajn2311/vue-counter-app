@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import IncButton from './components/IncButton.vue'
-import DecButton from './components/DecButton.vue'
-import ResetButton from './components/ResetButton.vue'
+import IncButton from './components/IncButton.vue';
+import DecButton from './components/DecButton.vue';
+import ResetButton from './components/ResetButton.vue';
 
 export default {
 	name: 'app',

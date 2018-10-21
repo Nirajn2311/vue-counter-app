@@ -6,11 +6,11 @@
 
 <script>
 export default {
-  name: 'CurrentCount',
-  props: {
-    count: Number
-  }
-}
+	name: 'CurrentCount',
+	props: {
+		count: Number
+	}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
