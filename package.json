@@ -18,7 +18,7 @@
 		"express": "^4.16.2",
 		"serve-static": "^1.13.2",
 		"vue": "^2.5.17",
-		"vuetify": "^1.2.0"
+		"vuetify": "^2.3.14"
 	},
 	"devDependencies": {
 		"@vue/cli-plugin-babel": "^3.0.5",
