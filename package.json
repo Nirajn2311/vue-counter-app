@@ -15,7 +15,7 @@
 		"@fortawesome/free-brands-svg-icons": "^5.4.1",
 		"@fortawesome/free-regular-svg-icons": "^5.4.1",
 		"@fortawesome/vue-fontawesome": "^0.1.1",
-		"express": "^4.16.2",
+		"express": "^4.18.2",
 		"serve-static": "^1.13.2",
 		"vue": "^2.5.17",
 		"vuetify": "^1.2.0"
